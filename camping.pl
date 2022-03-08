@@ -140,7 +140,7 @@ solve(List) :-
     member(barraca(Bfutebol,          _,            _,            _,            _,          _, futebol), List),
     left_of(Brocket, Bfutebol),
 
-    % setting missing informations (those above were not cited in the hints)
+    % setting missing informations (those below were not cited in the hints)
     member(barraca(       _,          _,            _,           11,            _,          _,       _), List),
     member(barraca(       _,          _,            _,            _,            _,    alfafas,       _), List),
     member(barraca(       _,          _,     anderson,            _,            _,          _,       _), List),
