@@ -6,3 +6,6 @@ This application solves the logic puzzle [Acampamento de férias](https://rachac
 ## Usage
 - there is a script in `./scripts/run.sh`
 - once you ran the script, type `solve(X).` in the console and press `enter`
+
+## Output
+- the solved puzzle will be shown in the console
