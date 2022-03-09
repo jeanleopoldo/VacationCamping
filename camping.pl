@@ -21,13 +21,6 @@ in_between_in_order(X, Y, Z) :- X < Y, Y < Z.
 
 on_the_edge(X) :- X is 1; X is 5.
 
-idade(9).
-idade(10).
-idade(11).
-idade(12).
-idade(13).
-
-
 solve(List) :-
     List = [
            barraca( 1,            Cor1,        Nome1,        Idade1,   Sanduiche1,  Equipe1, Esporte1),
